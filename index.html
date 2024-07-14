@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Gift for Febio</title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Global reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Global styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #333;
+            color: #f5f5f5;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        
+        nav {
+            margin-top: 10px;
+        }
+        
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #f5f5f5;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #444;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        
+        .box {
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        
+        .box:hover {
+            transform: scale(1.02);
+        }
+        
+        .box h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .box p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        
+        /* Icons */
+        .box i {
+            font-size: 4em;
+            color: #f5f5f5;
+            margin-bottom: 10px;
+        }
+        
+        /* Memories */
+        .memories {
+            background-color: #4CAF50; /* Green */
+        }
+        
+        /* Prayers */
+        .prayers {
+            background-color: #FFC107; /* Yellow */
+        }
+        
+        /* Gospel Readings */
+        .gospel {
+            background-color: #2196F3; /* Blue */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A Gift for Febio</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="memories.html">Memories</a>
+            <a href="prayers.html">Prayers</a>
+            <a href="gospel-readings.html">Gospel Readings</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box memories" onclick="location.href='memories.html';">
+            <i class="fas fa-images"></i>
+            <h2>Memories</h2>
+            <p>Explore memories with Febio through a collage of photos.</p>
+        </div>
+        <div class="box prayers" onclick="location.href='prayers.html';">
+            <i class="fas fa-praying-hands"></i>
+            <h2>Prayers</h2>
+            <p>Discover powerful prayers dedicated to Febio.</p>
+        </div>
+        <div class="box gospel" onclick="location.href='gospel-readings.html';">
+            <i class="fas fa-book-open"></i>
+            <h2>Gospel Readings</h2>
+            <p>Read and reflect on selected Gospel verses.</p>
+        </div>
+    </div>
+</body>
+</html>
